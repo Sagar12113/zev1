@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+  $glass : rgba($color: #000000, $alpha: .2);
+  $box-shadow: inset 0 0 10vw rgba(0, 0, 0, 0.1);
+  $box-shadow_2: 0 0 4px #888888;
+  $animationSpeed: 40s;
+  $green : #7FA800;
+  $white : #fff;
+  $btry : #e6e6e6;
+  $icon : #565353;
+  $lignt_gray: #EDEDED;
+  $yellow : #FFD337;
+  $border-radius : 1rem;
+  $bg-width: 50px;
+  $bg-height: 50px;
+  li {
+    list-style: none;
+  }
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.heading {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+    color: $green;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+
+.btry2{
+    margin: 2rem 0 0 0;
+}
+.bt {
+    /*Battery 1*/
+    .battery-wrapper1 {
+        margin: 0px calc(50% - 6.2rem);
+        width: 4rem;
+        height: 4rem;
+        &:hover{
+            cursor: pointer;
+        }
+        .battery-part-big {
+            width: 200px;
+            height: 4rem;
+            border: 4px solid $icon;
+            border-radius: 3px;
+            border-radius: .5rem;
+            position: relative;
+
+            .battery-part-small {
+                width: 12px;
+                height: 40px;
+                background: $icon;
+                border-radius: 0 3px 3px 0;
+                position: absolute;
+                right: -12px;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+
+            .text {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translate(0, -50%);
+                font-size: 1.5rem;
+                width: 192px;
+                
+            }
+            .modal__close {
+                background: transparent;
+                border: 0;
+                width: 12rem;
+                height: 4rem;
+                position: relative;
+                z-index: 99999;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 1.2rem;
+                display: grid;
+                place-items: center;
+               
+              }
+
+            .battery-power {
+                width: calc(100% / 6 - 10px);
+                height: 3rem;
+                margin: .25rem 0 0 .3rem;
+                display: inline-block;
+            }
+
+            .battery-power-1,
+            .battery-power-2,
+            .battery-power-3,
+            .battery-power-4,
+            .battery-power-5,
+            .battery-power-6 {
+                opacity: 0;
+                background: $btry;
+                border-radius: 3px;
+
+            }
+
+            .battery-power-1 {
+                animation: battery-power-1 4s 0s infinite;
+            }
+
+            .battery-power-2 {
+                animation: battery-power-2 4s 0s infinite;
+            }
+
+            .battery-power-3 {
+                animation: battery-power-3 4s 0s infinite;
+            }
+
+            .battery-power-4 {
+                animation: battery-power-4 4s 0s infinite;
+            }
+
+            .battery-power-5 {
+                animation: battery-power-5 4s 0s infinite;
+
+            }
+
+            .battery-power-6 {
+                animation: battery-power-6 4s 0s infinite;
+
+            }
+
+            @keyframes battery-power-1 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 1;
+                }
+
+                33% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                66% {
+                    opacity: 1;
+                }
+
+                83% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+
+
+            }
+
+            @keyframes battery-power-2 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 0;
+                }
+
+                33% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                66% {
+                    opacity: 1;
+                }
+
+                83% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes battery-power-3 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 0;
+                }
+
+                33% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                66% {
+                    opacity: 1;
+                }
+
+                83% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes battery-power-4 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 0;
+                }
+
+                33% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 0;
+                }
+
+                66% {
+                    opacity: 1;
+                }
+
+                83% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes battery-power-5 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 0;
+                }
+
+                33% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 0;
+                }
+
+                66% {
+                    opacity: 0;
+                }
+
+                83% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes battery-power-6 {
+                0% {
+                    opacity: 0;
+                }
+
+                16% {
+                    opacity: 0;
+                }
+
+                33% {
+                    opacity: 0;
+                }
+
+                50% {
+                    opacity: 0;
+                }
+
+                66% {
+                    opacity: 0;
+                }
+
+                83% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+}

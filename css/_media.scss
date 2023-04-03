@@ -1,0 +1,825 @@
+@media only screen and (max-width: 1290px) {
+    footer {
+        .contact_address_1 {
+            .address,
+            .contact,
+            .blank {
+                h3 {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .cprofile_sec {
+            .copy_right,
+            .designed_by,
+            .social {
+                h4 {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .testimonials_con {
+        .customersrepeat {
+            .img_on_text {
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .organisations_we_serve {
+        .org_slider {
+            .glide {
+                width: 100%;
+
+                .glide__track {
+                    ul {
+                        li {
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials_con {
+        .customersrepeat {
+            .img_on_text {
+                width: 90%;
+                .text {
+                    h2 {
+                        font-size: 8em;
+                        line-height: 1;
+                    }
+
+                    span {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+
+        .testimonial_slid {
+            .cards {
+                margin-right: 28%;
+
+                .outer {
+                    .card {
+                        max-width: 22rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    footer {
+        .contact_address_1 {
+            .address,
+            .contact,
+            .blank {
+                h3 {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .cprofile_sec {
+            .copy_right,
+            .designed_by,
+            .social {
+                h4 {
+                    font-size: 0.8rem;
+                }
+            }
+
+            .social {
+                .icon {
+                    i {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .org_works {
+        position: absolute;
+        top: 35%;
+        left: 25% !important;
+
+        // h1 {
+        //     font-size: 40px !important;
+        //     padding: 15px;
+        // }
+        // span {
+        //     font-size: 40px !important;
+        // }
+    }
+    // .zev {
+    //     .numbers {
+    //         .our_exp {
+    //             h1 {
+    //                 font-size: 2.5rem;
+    //             }
+
+    //             p {
+    //                 font-size: 1.7rem;
+    //             }
+    //         }
+    //     }
+    // }
+
+    .testimonials_con {
+        flex-direction: column;
+        .customersrepeat {
+            width: 100%;
+            justify-content: center;
+
+            .img_on_text {
+                width: 90%;
+            }
+        }
+
+        .testimonial_slid {
+            width: 100%;
+            .cards {
+                margin-right: 10%;
+
+                .outer {
+                    .card {
+                        max-width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    footer {
+        .contact_address_1 {
+            display: none;
+        }
+
+        .contact_address_2 {
+            display: block;
+
+            .cont {
+                display: flex;
+                justify-content: center;
+
+                .add {
+                    width: fit-content;
+
+                    h3 {
+                        color: $green;
+                        font-size: 1.3rem;
+                        font-family: "Electrolize", sans-serif;
+                        margin-top: 1rem;
+                        i {
+                            margin: 0 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cprofile_sec {
+            flex-direction: column;
+            justify-content: center;
+
+            .copy_right,
+            .designed_by,
+            .social {
+                width: calc(100%);
+                display: flex;
+                justify-content: center;
+                margin-top: 1rem;
+
+                h4 {
+                    width: fit-content;
+                    font-size: 1.2rem;
+                }
+            }
+
+            .copy_right {
+                order: 1;
+                h4 {
+                    margin: auto;
+                }
+            }
+
+            .designed_by {
+                order: 2;
+            }
+
+            .social {
+                order: 3;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zev {
+        .org_name {
+            .zev_name {
+                font-size: 2.5rem;
+
+                span {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        .mid_text {
+            font-size: 5rem;
+        }
+
+        // .numbers {
+        //     .our_exp {
+        //         h1 {
+        //             font-size: 2rem;
+        //         }
+
+        //         p {
+        //             font-size: 1.5rem;
+        //         }
+        //     }
+        // }
+    }
+    .Our_Services {
+        .modal__overlay {
+            padding: 0.3rem;
+            .modal__container {
+                .modal__content {
+                    line-height: 1.1;
+                    .splide {
+                        .splide__arrows {
+                            .splide__arrow {
+                                font-size: 2rem;
+                                top: 50%;
+                            }
+                            .splide__arrow--prev {
+                                left: -0.8rem;
+                            }
+                            .splide__arrow--next {
+                                right: -0.8rem;
+                            }
+                        }
+                        .splide__track {
+                            width: 100%;
+                            .splide__list {
+                                .splide__slide {
+                                    padding: 0 1rem;
+                                    .card {
+                                        .img_wraper {
+                                            img {
+                                                width: 90%;
+                                            }
+                                        }
+                                        .card-body {
+                                            padding: 16px 0;
+                                            h5 {
+                                                font-size: 1.5rem;
+                                            }
+                                            p {
+                                                width: 90%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            footer {
+                .bt {
+                    .battery-wrapper1 {
+                        margin: 0px calc(50% - 4.2rem);
+                        .battery-part-big {
+                            width: 140px;
+                            height: 3rem;
+                            .battery-part-small {
+                                width: 6px;
+                                height: 25px;
+                                background: #565353;
+                                border-radius: 0 3px 3px 0;
+                                position: absolute;
+                                right: -10px;
+                            }
+                            .battery-power {
+                                width: calc(100% / 6 - 8px);
+                                height: 2rem;
+                                margin: 0.2rem 0 0 0.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .deal_vehicles {
+        .vehicles_info {
+            width: 12rem;
+            height: 12rem;
+            margin: 1rem !important;
+            .img_name {
+                h4 {
+                    color: $green;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+    .org_works {
+        position: absolute;
+        top: 35%;
+        left: 20% !important;
+
+        // h1 {
+        //     font-size: 30px !important;
+        //     padding: 15px;
+        // }
+        // span {
+        //     font-size: 30px !important;
+        // }
+    }
+
+    // .zev {
+    //     .numbers {
+    //         .our_exp {
+    //             h1 {
+    //                 font-size: 1.5rem;
+    //             }
+
+    //             p {
+    //                 font-size: 1.2rem;
+    //             }
+    //         }
+    //     }
+    // }
+}
+
+@media only screen and (max-width: 500px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .zev {
+        .org_name {
+            .zev_name {
+                font-size: 1.8rem;
+
+                span {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .mid_text {
+            font-size: 3rem;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, 0);
+        }
+
+        // .numbers {
+        //     .our_exp {
+        //         width: 100%;
+
+        //         h1 {
+        //             font-size: 1.4rem;
+        //         }
+
+        //         p {
+        //             font-size: 1rem;
+        //         }
+        //     }
+        // }
+    }
+
+    .Our_Services {
+        .services {
+            .service_image {
+                width: 12rem;
+            }
+            .img_and_name {
+                h4 {
+                    font-size: 1rem !important;
+                }
+            }
+        }
+        .modal__overlay {
+            padding: 0.3rem;
+            .modal__container {
+                padding: 13px;
+                .modal__content {
+                    margin: 2px 0;
+                    line-height: 1.1;
+                    .splide {
+                        .splide__arrows {
+                            .splide__arrow {
+                                font-size: 1.8rem;
+                                top: 50%;
+                            }
+                        }
+                        .splide__track {
+                            .splide__list {
+                                .splide__slide {
+                                    padding: 0 0.5rem;
+                                    .card {
+                                        margin: 0;
+                                        .img_wraper {
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                        .card-body {
+                                            padding: 16px 0;
+                                            h5 {
+                                                font-size: 1.5rem;
+                                            }
+                                            p {
+                                                width: 90%;
+                                                font-size: 0.9rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials_con {
+        .customersrepeat {
+            .img_on_text {
+                .text {
+                    h2 {
+                        font-size: 5em;
+                        line-height: 1;
+                    }
+                    span {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    .vehicles {
+        .deal_vehicles {
+            .vehicles_info {
+                &:hover {
+                    transform: scale(1);
+                    transition-duration: 0s;
+                }
+            }
+        }
+    }
+
+    footer {
+        .contact_address_2 {
+            .cont {
+                .add {
+                    h3 {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .cprofile_sec {
+            .copy_right,
+            .designed_by,
+            .social {
+                h4 {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 467px) {
+    /*Edited*/
+    .card {
+        font-size: 10px;
+        padding: 0.5rem !important;
+        margin: 0.5rem;
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: translateY(100%) scale(0.8);
+        }
+        5%,
+        20% {
+            opacity: 0.4;
+            transform: translateY(100%) translateX(0) scale(0.9);
+        }
+        25%,
+        40% {
+            opacity: 1;
+            pointer-events: all;
+            transform: translateY(0%) translateX(2rem) scale(1);
+        }
+        45%,
+        60% {
+            opacity: 0.4;
+            transform: translateY(-100%) translateX(0) scale(0.9);
+        }
+        65%,
+        100% {
+            opacity: 0;
+            transform: translateY(-100%) scale(0.8);
+        }
+    }
+
+    .deal_vehicles {
+        .vehicles_info {
+            width: 10rem !important;
+            height: 10rem !important;
+            margin: 1rem !important;
+            .img_name {
+                img {
+                    width: 80% !important;
+                }
+                h4 {
+                    color: $green;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .organisations_we_serve {
+        .org_slider {
+            .glide {
+                .glide__track {
+                    ul {
+                        li {
+                            .content_box {
+                                min-height: 626px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    .zev {
+        .org_name {
+            img {
+                width: 3rem;
+            }
+
+            .zev_name {
+                font-size: 1.5rem;
+
+                span {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .mid_text {
+            font-size: 2.5rem;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, 0);
+        }
+
+        // .numbers {
+        //     .our_exp {
+        //         width: 100%;
+
+        //         h1 {
+        //             font-size: 1.3rem;
+        //         }
+
+        //         p {
+        //             font-size: 0.9rem;
+        //         }
+        //     }
+        // }
+    }
+
+    .Our_Services {
+        .services {
+            .service_image {
+                width: 10rem;
+                .circle {
+                    margin: 0.5rem;
+                }
+            }
+            .img_and_name {
+                h4 {
+                    font-size: 0.7rem !important;
+                }
+            }
+        }
+    }
+
+    .testimonials_con {
+        .customersrepeat {
+            .img_on_text {
+                .text {
+                    h2 {
+                        font-size: 4em;
+                    }
+                    span {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+        .testimonial_slid {
+            .cards {
+                height: 31rem;
+            }
+        }
+    }
+
+    .organisations_we_serve {
+        .org_slider {
+            .glide {
+                .glide__track {
+                    ul {
+                        li {
+                            .content_box {
+                                min-height: 648px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .Our_Services {
+        .modal__overlay {
+            padding: 0.2 rem;
+            .modal__container {
+                padding: 13px;
+                .modal__content {
+                    margin: 2px 0;
+                    line-height: 1.1;
+                    .splide {
+                        .splide__arrows {
+                            .splide__arrow {
+                                font-size: 1.8rem;
+                                top: 50%;
+                            }
+                        }
+                        .splide__track {
+                            .splide__list {
+                                .splide__slide {
+                                    padding: 0 0.5rem;
+                                    .card {
+                                        margin: 0;
+                                        .img_wraper {
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                        .card-body {
+                                            padding: 16px 0;
+                                            h5 {
+                                                font-size: 1.3rem;
+                                            }
+                                            p {
+                                                width: 90%;
+                                                font-size: 0.8rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .deal_vehicles {
+        .vehicles_info {
+            width: 9rem !important;
+            height: 9rem !important;
+            margin: 0.8rem !important;
+            .img_name {
+                .vehicles_img{
+                    height: 110px;
+                }
+                h4 {
+                    color: $green;
+                    font-size: 1.2rem !important;
+                }
+            }
+        }
+    }
+    .organisations_we_serve {
+        .org_slider {
+            .glide {
+                .glide__track {
+                    ul {
+                        li {
+                            .content_box {
+                                min-height: 688px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    // .zev {
+    //     .numbers {
+    //         .our_exp {
+    //             h1 {
+    //                 font-size: 1.2rem;
+    //             }
+
+    //             p {
+    //                 font-size: 0.8rem;
+    //             }
+    //         }
+    //     }
+    // }
+    .organisations_we_serve {
+        .org_slider {
+            .glide {
+                .glide__track {
+                    ul {
+                        li {
+                            .content_box {
+                                min-height: 688px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    .testimonials_con {
+        .testimonial_slid {
+            .cards {
+                height: 32rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 343px) {
+    .testimonials_con {
+        .testimonial_slid {
+            .cards {
+                height: 34rem;
+            }
+        }
+    }
+}
